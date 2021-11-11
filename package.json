@@ -1,0 +1,24 @@
+{
+  "name": "city",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "file": "node fileSys.js",
+    "roll": "rollup -c",
+    "dev": "",
+    "ele": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   
+    "pixi.js": "^5.3.4",
+    "rollup": "^2.33.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.2"
+  }
+}
